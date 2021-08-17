@@ -23,7 +23,7 @@ class Car {
     readonly numberOfWheels: number = 4
     constructor(readonly model: string) {}
 }
-//=====================
+//==========
 
 class Animal {
     protected voice: string = '';
@@ -38,5 +38,4 @@ class Cat extends Animal {
         this.voice = voice;
     }
 }
-
 const cat = new Cat()
