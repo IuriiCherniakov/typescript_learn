@@ -32,6 +32,7 @@ function position(a?: number, b?: number) {
     return {x: a, y: b}
 }
 
+
 console.log('Empty', position());
 console.log('One param:', position(42));
 console.log('Two params:', position(10, 15));

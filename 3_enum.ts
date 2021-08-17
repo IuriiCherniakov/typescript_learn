@@ -16,5 +16,6 @@ enum SocialMedia {
     INSTAGRAM = 'INSTAGRAM'
 }
 
+
 const social = SocialMedia.INSTAGRAM;
 console.log(social)
