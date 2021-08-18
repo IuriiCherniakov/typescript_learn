@@ -39,3 +39,27 @@ class Cat extends Animal {
     }
 }
 const cat = new Cat()
+cat.setVoice('test')
+console.log(cat.color)
+//================================
+
+abstract class Component {
+    abstract render(): void
+    abstract info(): string
+}
+
+class AppComponet extends Component {
+    render(): void {
+        console.log('Component on render')
+    }
+
+    info(): string {
+        return 'This is info';
+    }
+}
+
+
+
+
+
+
